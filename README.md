@@ -14,6 +14,12 @@ from the all-time Ikea furniture catalog, I won't include the scraper code here.
 
 ![screenshot](./screenshots/yeah.png)
 
+## 🎉 Fun
+
+![screenshot](./screenshots/Progress.png)
+![screenshot](./screenshots/Beautiful.png)
+![screenshot](./screenshots/Proof.png)
+
 ## ✨ Features
 - Rename all server members to Ikea furniture randomly
 - Rename a specific server member to random Ikea furniture

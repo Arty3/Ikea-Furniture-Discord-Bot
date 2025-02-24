@@ -93,6 +93,7 @@ class Commands(Cog):
 			await interaction.response.send_message(f'Unknown exception occurred while trying to rename {member.display_name}, check logs for more info.', ephemeral=True)
 			logging.error(f'Error renaming user {member.display_name}: {str(exc)}')
 
+	@has_permissions(administrator=True)
 	@nextcord.slash_command(name='ikea_all', description='Renames all server members to ikea furniture.')
 	async def rename_all_command(self, interaction: Interaction) -> None:
 		logging.info('Called rename all command.')
@@ -151,6 +152,7 @@ class Commands(Cog):
 
 		logging.info(f'Renamed {renamed_count} member(s) in {interaction.guild.name}')
 
+	@has_permissions(administrator=True)
 	@nextcord.slash_command(name='unkea_all', description='Restores original usernames.')
 	async def restore_names_command(self, interaction: Interaction) -> None:
 		logging.info('Called restore names command.')
