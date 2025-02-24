@@ -139,7 +139,9 @@ chmod +x ./run.sh
 
 Once on a server, you can use the `/ikea` and the `/ikea_all` commands to rename server members.
 <br>
-(Note that only server administrators can do this).
+You can also use the `/unkea` and the `unkea_all` commands to reset the names.
+<br>
+(Note that only server administrators can do this & it will only rename members below the bot's role).
 
 ## 📊 Logging
 
