@@ -9,7 +9,7 @@ import logging
 
 __all__: List[str] = ['Client']
 
-MIN_PYTHON_VERSION: Final[Tuple[Literal[3], Literal[8], Literal[1]]] = (3, 8, 1)
+MIN_PYTHON_VERSION: Final[Tuple[Literal[3], Literal[8], Literal[1]]] = (3, 12, 0)
 
 if version_info < MIN_PYTHON_VERSION:
 	print(
