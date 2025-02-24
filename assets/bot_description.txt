@@ -1,0 +1,1 @@
+Bot that renames users to Ikea furniture (who doesn't love Ikea)

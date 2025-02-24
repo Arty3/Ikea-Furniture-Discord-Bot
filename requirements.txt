@@ -1,0 +1,4 @@
+python-dotenv~=0.21.0
+nextcord~=2.6.0
+pandas~=1.5.1
+numpy~=1.26.2

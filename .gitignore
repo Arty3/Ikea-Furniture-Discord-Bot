@@ -1,0 +1,6 @@
+# Ignore all dotenv files
+.env
+.env.*
+
+# Ignore python cache
+__pycache__/
