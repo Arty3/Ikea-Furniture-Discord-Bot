@@ -101,7 +101,7 @@ and all three privileged gateway intents toggled on.
 To host an instance, clone the repository:
 
 ```sh
-git clone https://github.com/DontCallMeLuca/Ikea-Furniture-Discord-Bot
+git clone https://github.com/Arty3/Ikea-Furniture-Discord-Bot
 cd Ikea-Furniture-Discord-Bot
 ```
 
